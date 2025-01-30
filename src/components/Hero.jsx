@@ -7,11 +7,10 @@ function Hero() {
     <div className='min-h-screen flex flex-col gap-10 items-center justify-center text-center  w-full mx-auto p-4 hero'>
       <div className='flex flex-col gap-4'>
       <p>IT'S TIME TO GET   </p>
-      <h1 className='font-semibold text-4xl sm:text-5xl md:text-6xl lg:text-7xl'>SWOLE<span className='text-blue-400'>NORMOUS</span></h1>
+      <h1 className='font-semibold text-4xl sm:text-5xl md:text-6xl lg:text-7xl head'>HEALTHY<span className='text-blue-600'>AND FIT</span></h1>
 
       </div>
-      <p className='text-sm md:text-base font-light'>I hereby acknowledgement that I may become<span className='text-blue-400 font-medium'>unbelievably swolenormous</span>  and accept all risks of 
-        becoming the local<span className='text-blue-400 font-medium'>mass montrosity</span> , afflicted with severe body dismorphia, unable to fit through doors.</p>
+      <p className='text-sm md:text-base font-light'>Get a clear, simple workout plan with exercises<span className='text-blue-800 font-medium'> reps, and rest times for each muscle group</span> <span className='text-blue-800 font-medium'> No fluff just effective training routines to keep you on track.</span> achieve your dream physique with our community , Train Smart. Stay Consistent..</p>
         <Button func={() => {
             window.location.href = "#generate"
         }} text={"Get started"}></Button>  
